@@ -1,0 +1,8 @@
+# Файлы, которые Render должен игнорировать
+*.session
+*.log
+*.session-journal
+__pycache__/
+.env
+config.py
+secret_data/
