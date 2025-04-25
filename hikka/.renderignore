@@ -1,8 +1,15 @@
-# Файлы, которые Render должен игнорировать
+# Security
 *.session
-*.log
 *.session-journal
-__pycache__/
 .env
-config.py
-secret_data/
+config.json
+secrets/
+
+# System
+__pycache__/
+*.py[cod]
+*.log
+
+# Development
+test/
+tmp/
